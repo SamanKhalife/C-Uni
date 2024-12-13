@@ -223,7 +223,7 @@ Write a program that takes an integer `n` as input and determines if the number 
 ## 42. [Display Fibonacci Sequence](display-fibonacci-sequence.c)
 Write a program that prints the first 15 terms of the Fibonacci sequence. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. The first two terms are `1` and `1`. The next terms are obtained by adding the two previous terms. The sequence starts like this: `1, 1, 2, 3, 5, 8, 13, 21, ...`
 
-## 43. [Check if a Number is in Fibonacci Sequence](check-if-a-number-is-in -fibonacci-sequence.c)
+## 43. [Check if a Number is in Fibonacci Sequence](check-if-a-number-is-in-fibonacci-sequence.c)
 Write a program that takes an integer `n` as input and determines whether `n` is part of the Fibonacci sequence or not.
 
 ## 44. [Display Largest Four-Digit Fibonacci Number](display-largest-four-digit-fibonacci-number.c)
