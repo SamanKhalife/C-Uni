@@ -48,7 +48,7 @@ Write a program that takes the coefficients `a`, `b`, and `c` of the quadratic e
 ## 14. [Sort Three Numbers in Ascending Order](sort-three-numbers-in-ascending-order.c)
 Write a program that takes three numbers, `a`, `b`, and `c`, as input and sorts them in ascending order.
 
-## 15. [Function of x](function-of-x .c)
+## 15. [Function of x](function-of-x.c)
 Write a program that takes the value of `x` as input and calculates the value of `y` according to the following rules:
 ```
 y = 1, if x > 0
