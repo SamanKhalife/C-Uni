@@ -202,7 +202,7 @@ Write a program that takes an integer `n` as input and displays all divisors of 
 ## 37. [Display the Word Corresponding to a Single Digit Using Switch](display-the-word-corresponding-to-a-single-digit-using-switch.c)
 Write a program that takes a single digit as input and displays the corresponding word for that digit. The program should use a switch-case structure to display the word equivalent of the number (for example, `1` should be displayed as `One`).
 
-## 38. [Display Full Color Name Based on First Character](display -full-color-name-based-on-first-character.c)
+## 38. [Display Full Color Name Based on First Character](display-full-color-name-based-on-first-character.c)
 Write a program that takes the first letter of a color (`a`, `r`, or `g`) as input and displays the full name of the color. The input may be in either uppercase or lowercase.
 
 ## 39. [Check if a Character is a Vowel](check-if-a-character-is-a-vowel.c)
