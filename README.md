@@ -1,6 +1,7 @@
 # C-Uni
-Some basic C programs that was University exercise And fun
+A collection of C programs from my university exercises.
 
+Now, I find it fun, but back then, it often brought out some "F" words. Those were the days!
 ## 1. [Variable Exchange](variable-exchange.c)
 Write a program that takes two variables as input and swaps their values without using a third variable.
 
@@ -229,85 +230,95 @@ Write a program that takes an integer `n` as input and determines whether `n` is
 ## 44. [Display Largest Four-Digit Fibonacci Number](display-largest-four-digit-fibonacci-number.c)
 Write a program that finds and displays the largest four-digit number in the Fibonacci sequence.
 
+# 45. [Square Calculation Using Odd Numbers]()
+The square of any natural number `n` can be calculated by summing `n` consecutive odd numbers starting from 1. For example:
+- n = 1 > 1² = 1
+- n = 2 > 2² = 1 + 3
+- n = 3 > 3² = 1 + 3 + 5
 
+Write a program that calculates the square of a given natural number using this method, without using the multiplication operation.
 
-# 45
+# 46. [Approximation of Constant 'e']()
+Write a program that approximates the mathematical constant `e` using the following formula, accurate to four decimal places:
 
-# 46
+\[ e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \dots \]
 
-# 47
+# 47. [Display Calendar for a 31-Day Month]()
+Assume that each day of the week is represented by a code such that:
+- Saturday has a code of 0,
+- Sunday has a code of 1,
+- and so on, with Friday having a code of 6.
 
-# 48
+Write a program that takes the code for the first day of a 31-day month as input and displays the calendar for that month. For example, if the input is 2, it means the first day of the month is a Monday. The output calendar should be displayed as follows:
 
-# 49
+```
+Sat  Sun  Mon  Tue  Wed  Thu  Fri
+               1    2    3    4    5
+6    7    8    9    10   11   12
+13   14   15   16   17   18   19
+20   21   22   23   24   25   26
+27   28   29   30   31
+```
 
-# 50
+# 48. [Formatted Multiplication Table]()
+Write a program that takes an input number `n` and prints `n` rows of output with appropriate spacing, similar to the following example:
 
-# 51
+```
+ i         10 * i    100 * i   1000 * i
+ 1         10        100       1000
+ 2         20        200       2000
+ 3         30        300       3000
+```
 
-# 52
+# 49. [Find the Least Common Multiple (LCM)]()
+Write a program that takes two natural numbers as input and finds their Least Common Multiple (LCM). The Least Common Multiple of two numbers is the smallest number that is divisible by both without a remainder. For example, the LCM of 23 and 16 is 368.
 
-# 53
+# 50. [Prime Numbers up to a Given Number]()
+Write a program that takes an integer as input and displays all the prime numbers less than or equal to that number.
 
-# 54
+# 51. [Binary to Decimal Conversion]()
+Write a program that reads a binary number (an integer consisting only of 0s and 1s) and prints its decimal equivalent. For example, for the input `10110`, the output should be `22`.
 
-# 55
+# 52. [Computation of e^x using Series Expansion]()
+Write a program that computes the value of \( e^x \) using the following formula up to 10 terms:
 
-# 56
+\[ e^x = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots \]
 
-# 57
+# 53. [Trigonometric Table for Angles 1 to 89 Degrees]()
+Write a program that generates a table of trigonometric ratios for angles from 1 to 89 degrees. The table should display the angle (in degrees), sine, cosine, tangent, and cotangent values to `F` decimal places, with each value in its own column. Use a step of 1 degree.
 
-# 58
+# 54. [Table of Negative Powers of 2]()
+Write a program that generates a table of negative powers of 2 (i.e., 2^-1, 2^-2, etc.). The table should display the values in decimal form, fractional form, and exponential form. The number of rows in the table should be specified by the input. An example output with three rows would look like this:
 
-# 59
+```
+Decimal        Fraction        Power of 2
+0.5000         1/2             2^-1
+0.2500         1/4             2^-2
+0.1250         1/8             2^-3
+```
+# 55. [Reverse an Array of Integers]()
+Define a six-element array of integers named `A` with the initial values 3, 7, 27, 38, and 12. Write a program that reverses the order of the elements in this array.
 
-# 60
+# 56. [Sum of Array Elements]()
+The array is defined as follows:
 
-# 61
+```c
+A[arraysize]={5, 7, -12, 235, 178, -100, 236, 1, 9, 0, 11, 102};
+```
 
-# 62
+Write a program that sums up all the elements in the array `A` and prints the result.
 
-# 63
+# 57. [Display Integers in Reverse Order]()
+Write a program that reads 10 integers from input and displays them in reverse order.
 
-# 64
+# 58. [Separate Positive and Negative Numbers in an Array]()
+Consider an array of integers named `A` of size `n = 5`. Write a program that reads the elements of this array from input, separates the positive and negative numbers, and stores the positive numbers in an array `pos` and the negative numbers in an array `neg`.
 
-# 65
+# 59. [Fibonacci Series using Arrays]()
+Write a program that uses an array to compute and print the first ten terms of the Fibonacci series.
 
-# 66
+# 60. [Remove Duplicates and Count Frequencies in an Array]()
+Given an array of `n = 10` integers, write a program that removes all duplicate values from the array and prints the unique numbers along with their frequencies.
 
-# 67
-
-# 68
-
-# 69
-
-# 70
-
-# 71
-
-# 72
-
-# 73
-
-# 74
-
-# 75
-
-# 76
-
-# 77
-
-# 78
-
-# 79
-
-# 80
-
-# 81
-
-# 82
-
-# 83
-
-# 84
-
+# 61. [Hexadecimal to Decimal Conversion]()
+Write a program that takes a hexadecimal number as a string input and converts it to its decimal (base 10) equivalent, then prints the result.
