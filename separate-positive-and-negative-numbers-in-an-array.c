@@ -2,7 +2,6 @@
 #include<conio.h>
 #define n 50
 int main() {
-
   int A[n], pos[n], neg[n];
   int i, k = 0, 1=0;
   for (i = 0; i < n; i++)

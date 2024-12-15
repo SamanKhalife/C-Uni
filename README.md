@@ -322,3 +322,4 @@ Given an array of `n = 10` integers, write a program that removes all duplicate 
 
 ## 61. [Hexadecimal to Decimal Conversion]()
 Write a program that takes a hexadecimal number as a string input and converts it to its decimal (base 10) equivalent, then prints the result.
+

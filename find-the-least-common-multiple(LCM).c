@@ -1,7 +1,5 @@
 #include<stdio.h>
-
 #include<conio.h>
-
 int main() {
   int n, m, k, s, t, r;
   printf("\nEnter n,m : ");

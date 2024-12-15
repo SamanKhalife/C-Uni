@@ -12,7 +12,6 @@ int main() {
         count++;
         break;
       }
-
     if (count == 0)
       printf("%4d ", i);
   }
