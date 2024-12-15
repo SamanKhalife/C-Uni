@@ -230,7 +230,7 @@ Write a program that takes an integer `n` as input and determines whether `n` is
 ## 44. [Display Largest Four-Digit Fibonacci Number](display-largest-four-digit-fibonacci-number.c)
 Write a program that finds and displays the largest four-digit number in the Fibonacci sequence.
 
-## 45. [Square Calculation Using Odd Numbers]()
+## 45. [Square Calculation Using Odd Numbers](square-calculation-using-odd-numbers.c)
 The square of any natural number `n` can be calculated by summing `n` consecutive odd numbers starting from 1. For example:
 - n = 1 > 1² = 1
 - n = 2 > 2² = 1 + 3
@@ -238,12 +238,12 @@ The square of any natural number `n` can be calculated by summing `n` consecutiv
 
 Write a program that calculates the square of a given natural number using this method, without using the multiplication operation.
 
-## 46. [Approximation of Constant 'e']()
+## 46. [Approximation of Constant 'e'](approximation-of-constant'e'.c)
 Write a program that approximates the mathematical constant `e` using the following formula, accurate to four decimal places:
 
 \[ e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \dots \]
 
-## 47. [Display Calendar for a 31-Day Month]()
+## 47. [Display Calendar for a 31-Day Month](display-calendar-for-a-31-day-month.c)
 Assume that each day of the week is represented by a code such that:
 - Saturday has a code of 0,
 - Sunday has a code of 1,
@@ -260,7 +260,7 @@ Sat  Sun  Mon  Tue  Wed  Thu  Fri
 27   28   29   30   31
 ```
 
-## 48. [Formatted Multiplication Table]()
+## 48. [Formatted Multiplication Table](formatted-multiplication-table.c)
 Write a program that takes an input number `n` and prints `n` rows of output with appropriate spacing, similar to the following example:
 
 ```
@@ -270,24 +270,24 @@ Write a program that takes an input number `n` and prints `n` rows of output wit
  3         30        300       3000
 ```
 
-## 49. [Find the Least Common Multiple (LCM)]()
+## 49. [Find the Least Common Multiple (LCM)](find-the-least-common-multiple(LCM).c)
 Write a program that takes two natural numbers as input and finds their Least Common Multiple (LCM). The Least Common Multiple of two numbers is the smallest number that is divisible by both without a remainder. For example, the LCM of 23 and 16 is 368.
 
-## 50. [Prime Numbers up to a Given Number]()
+## 50. [Prime Numbers up to a Given Number](prime-numbers-up-to-a-given-number.c)
 Write a program that takes an integer as input and displays all the prime numbers less than or equal to that number.
 
-## 51. [Binary to Decimal Conversion]()
+## 51. [Binary to Decimal Conversion](binary-to-decimal-conversion.c)
 Write a program that reads a binary number (an integer consisting only of 0s and 1s) and prints its decimal equivalent. For example, for the input `10110`, the output should be `22`.
 
-## 52. [Computation of e^x using Series Expansion]()
+## 52. [Computation of e^x using Series Expansion](computation-of-e^x-using-series-expansion.c)
 Write a program that computes the value of \( e^x \) using the following formula up to 10 terms:
 
 \[ e^x = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots \]
 
-## 53. [Trigonometric Table for Angles 1 to 89 Degrees]()
+## 53. [Trigonometric Table for Angles 1 to 89 Degrees](trigonometric-table-for-angles-1to89-degrees.c)
 Write a program that generates a table of trigonometric ratios for angles from 1 to 89 degrees. The table should display the angle (in degrees), sine, cosine, tangent, and cotangent values to `F` decimal places, with each value in its own column. Use a step of 1 degree.
 
-## 54. [Table of Negative Powers of 2]()
+## 54. [Table of Negative Powers of 2](table-of-negative-powers-of-2.c)
 Write a program that generates a table of negative powers of 2 (i.e., 2^-1, 2^-2, etc.). The table should display the values in decimal form, fractional form, and exponential form. The number of rows in the table should be specified by the input. An example output with three rows would look like this:
 
 ```
@@ -296,10 +296,10 @@ Decimal        Fraction        Power of 2
 0.2500         1/4             2^-2
 0.1250         1/8             2^-3
 ```
-## 55. [Reverse an Array of Integers]()
+## 55. [Reverse an Array of Integers](reverse-an-array-of-integers.c)
 Define a six-element array of integers named `A` with the initial values 3, 7, 27, 38, and 12. Write a program that reverses the order of the elements in this array.
 
-## 56. [Sum of Array Elements]()
+## 56. [Sum of Array Elements](sum-of-array-elements.c)
 The array is defined as follows:
 
 ```c
@@ -308,18 +308,18 @@ A[arraysize]={5, 7, -12, 235, 178, -100, 236, 1, 9, 0, 11, 102};
 
 Write a program that sums up all the elements in the array `A` and prints the result.
 
-## 57. [Display Integers in Reverse Order]()
+## 57. [Display Integers in Reverse Order](display-integers-in-revers-order.c)
 Write a program that reads 10 integers from input and displays them in reverse order.
 
-## 58. [Separate Positive and Negative Numbers in an Array]()
+## 58. [Separate Positive and Negative Numbers in an Array](separate-positive-and-negative-numbers-in-an-array.c)
 Consider an array of integers named `A` of size `n = 5`. Write a program that reads the elements of this array from input, separates the positive and negative numbers, and stores the positive numbers in an array `pos` and the negative numbers in an array `neg`.
 
-## 59. [Fibonacci Series using Arrays]()
+## 59. [Fibonacci Series using Arrays](fibonacci-series-using-arrays.c)
 Write a program that uses an array to compute and print the first ten terms of the Fibonacci series.
 
-## 60. [Remove Duplicates and Count Frequencies in an Array]()
+## 60. [Remove Duplicates and Count Frequencies in an Array](remove-duplicates-and-count-frequencies-in-an-array.c)
 Given an array of `n = 10` integers, write a program that removes all duplicate values from the array and prints the unique numbers along with their frequencies.
 
-## 61. [Hexadecimal to Decimal Conversion]()
+## 61. [Hexadecimal to Decimal Conversion](hexadecimal-to-decimal-conversion.c)
 Write a program that takes a hexadecimal number as a string input and converts it to its decimal (base 10) equivalent, then prints the result.
 
